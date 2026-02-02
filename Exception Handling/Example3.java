@@ -24,7 +24,7 @@ class Example3 {
         }
     }
     public static void checkAssignment() {
-        System.out.print("Enter your response  : ");
+        System.out.print(" Did you completed assignment : ");
         String resp=new java.util.Scanner(System.in).next().toUpperCase();
         if(resp.equals("YES")){
             System.out.println("attend batch ");
